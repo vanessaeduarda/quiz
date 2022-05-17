@@ -65,7 +65,7 @@ def atualizarRank(ranking_atual):
     encontrou_jogador = False
     ranking_antigo = {}
     #checa se o jogador ja tem ranking cadastrado
-    for rank in lista_ranking():
+    for rank in lista_ranking:
         if(rank["jogador"] == ranking_atual["jogador"]):
             encontrou_jogador = True
             ranking_antigo = rank
